@@ -2531,13 +2531,13 @@ td.visible-print {
 body {
   background: #111;
 }
-h2 {
+h1 {
   font-weight: 200;
   color: #555;
   font-size: 26px;
   line-height: 47px;
 }
-h3 {
+p {
   color: #777;
   text-transform: uppercase;
   font-size: 12px;
@@ -2548,7 +2548,7 @@ h3 {
 .main-unit {
   width: 500px;
   height: auto;
-  padding: 20px;
+  padding: 30px;
   margin-top: 90px;
   text-align: center;
   background: rgba(255, 255, 255, 0.925);
@@ -2891,17 +2891,18 @@ h3 {
 }
 /* Extra small devices (phones) */
 @media (max-width: 550px) {
-  h2 {
+  h1 {
     font-size: 14px;
     line-height: 30px;
   }
-  h3 {
+  p {
     font-size: 8px;
     letter-spacing: 0;
     margin-top: 30px;
   }
   .main-unit {
     width: 280px;
+    padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
