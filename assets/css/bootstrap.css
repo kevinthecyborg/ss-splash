@@ -2558,7 +2558,12 @@ h3 {
   display: table;
 }
 .twtr-flw-btn {
-  margin: 40px 0 10px 0;
+  margin: 55px 0 10px 0;
+}
+.fb-like-btn {
+  margin: 0 auto;
+  display: inline-block;
+  margin-top: 15px;
 }
 .relative {
   position: relative;
@@ -2885,7 +2890,7 @@ h3 {
   }
 }
 /* Extra small devices (phones) */
-@media (max-width: 480px) {
+@media (max-width: 550px) {
   h2 {
     font-size: 14px;
     line-height: 30px;
@@ -2902,5 +2907,8 @@ h3 {
   }
   .header-logo {
     margin: 20px 0 30px;
+  }
+  .twtr-flw-btn {
+    margin-top: 40px;
   }
 }
