@@ -2531,6 +2531,9 @@ td.visible-print {
 body {
   background: #111;
 }
+ul {
+  list-style: none;
+}
 h1 {
   font-weight: 200;
   color: #555;
